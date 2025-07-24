@@ -4,12 +4,12 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) =>{
 
   return (
     <>
-    <div className={`fixed top-0 left-0 w-full bg-[rgba(255,255,255,0.3)] z-40 flex flex-col 
+    <div className={`fixed top-0 left-0 w-full bg-[rgba(255,255,255,0.6)] z-40 flex flex-col 
       items-center justify-center transition-all duration-300 ease-in-out
       ${menuOpen ? 'h-screen opacity-100 pointer-events-auto' : 'h-0 opacity-0 pointer-events-none'}`}>
       
       <button onClick={() => setMenuOpen(false)} 
-      className="absolute top-3 right-8 text-gray-600 text-3xl focus:outline-none cursor-pointer"
+      className="absolute top-3 right-8 text-gray-900 text-3xl focus:outline-none cursor-pointer"
       aria-label="fechar menu close menu">
         &times;
       </button>

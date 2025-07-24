@@ -1,16 +1,24 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './index.css'
 import './App.css'
-import Lightbox from 'yet-another-react-lightbox-lite'
-import "yet-another-react-lightbox-lite/styles.css"
 import { Navbar } from './components/Navbar'
 import { MobileMenu } from './components/MobileMenu'
 import { Work } from './components/sections/Work'
 import { About } from './components/sections/About'
 
+//lightgallery modal
+import LightGallery from 'lightgallery/react';
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
+
 function App() {
 
   const [menuOpen, setMenuOpen] = useState(false)
+ 
+
   return <>
   <div>
 

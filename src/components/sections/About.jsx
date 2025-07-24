@@ -1,7 +1,7 @@
 export const About = () => {
   return (
-  <section id="about" className="ml-8 mr-8 pt-20 md:pt-40 flex gap-30 relative">
-    <div className="hidden md:w-full z-10">
+  <section id="about" className="ml-8 mr-8 pt-20 md:pt-28 flex gap-30 relative">
+    <div className="hidden md:block z-10">
       <img src="/about-img.png" alt="" />
     </div>
     <div  className="max-w-prose mb-20 mx-auto text-base space-y-6">
