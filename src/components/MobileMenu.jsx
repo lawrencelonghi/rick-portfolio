@@ -14,9 +14,9 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) =>{
         &times;
       </button>
     
-    <a href="#work" onClick={() => setMenuOpen(false)} className="text-3xl text-gray-950 font-semibold transition-colors tracking-wider p-3">Work</a>
-    <a href="#about" onClick={() => setMenuOpen(false)} className="text-3xl text-gray-950 font-semibold transition-colors tracking-wider p-3">About</a>
-    <a href="#contact" onClick={() => setMenuOpen(false)} className="text-3xl text-gray-950 font-semibold transition-colors tracking-wider p-3">Contact</a>
+    <a href="#work" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-950 font-semibold transition-colors tracking-widest p-6">WORK</a>
+    <a href="#about" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-950 font-semibold transition-colors tracking-widest p-6">ABOUT</a>
+    <a href="#contact" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-950 font-semibold transition-colors tracking-widest p-6">CONTACT</a>
   </div>
 </>
     

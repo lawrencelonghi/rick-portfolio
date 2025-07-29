@@ -1,12 +1,11 @@
 export const About = () => {
   return (
   <section id="about" className="ml-8 mr-8 pt-20 md:pt-28 flex gap-30 relative">
-    <div className="hidden md:block z-10">
+    <div className="hidden z-10 space-y-18 md:flex flex-col items-center">
       <img src="/about-img.png" alt="" />
     </div>
-    <div  className="max-w-prose mb-20 mx-auto text-base space-y-6">
-      <p><span className="font-bold">Ricardo Tadeu</span> é paulista, maquiador e jornalista, com uma carreira de mais
-de dez anos dedicada à escrita sobre meio ambiente, sustentabilidade,
+    <div  className="max-w-prose  mx-auto tracking-widest space-y-6">
+      <p><span className="font-semibold">Ricardo Tadeu</span> é paulista, maquiador e jornalista, com uma carreira de mais de dez anos dedicada à escrita sobre meio ambiente, sustentabilidade,
 política e economia. Sua trajetória também incluiu atuações na
 comunicação corporativa de multinacionais e como RP e assessor de
 imprensa nas áreas de gastronomia e cinema. Contudo, foi ao se aventurar

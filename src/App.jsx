@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar'
 import { MobileMenu } from './components/MobileMenu'
 import { Work } from './components/sections/Work'
 import { About } from './components/sections/About'
+import { Contact } from './components/sections/Contact'
 
 //lightgallery modal
 import LightGallery from 'lightgallery/react';
@@ -26,6 +27,7 @@ function App() {
   <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
   <Work />
   <About />
+  <Contact />
   
   </div>
   
