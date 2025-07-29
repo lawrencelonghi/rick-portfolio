@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
+
 html, 
 body {
   scroll-behavior: smooth;
   scroll-margin-top: 500px; 
   margin: 0;
   padding: 0;
-  font-family: 'Nunito';
+  font-family: 'Poppins';
   background-color: white;
   color: #545454;
   height: 2000px;
@@ -17,7 +18,7 @@ a{
 }
 
 
-.lg-toolbar {
+/* .lg-toolbar {
   z-index: 9999 !important;
   position: fixed !important;
   top: 0;
@@ -32,30 +33,7 @@ a{
 
 .lg-container {
   z-index: 9999 !important;
-}
+} */
 
-
-
-/* Force toolbar buttons to be visible */
-.lg-toolbar, .lg-close, .lg-download {
-  display: block !important;
-  visibility: visible !important;
-  z-index: 9999 !important;
-  color: white !important;
-  font-size: 24px !important;
-}
-
-/* Some icons use ::before content — ensure it shows */
-.lg-icon::before {
-  font-family: 'lg' !important;
-  content: attr(data-icon) !important;
-}
-
-/* Optional: Make sure it's not off screen */
-.lg-close, .lg-download {
-  position: absolute !important;
-  top: 10px;
-  right: 10px;
-}
 
 
