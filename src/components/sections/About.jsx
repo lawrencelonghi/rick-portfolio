@@ -4,7 +4,7 @@ export const About = () => {
     <div className="hidden z-10 space-y-18 md:flex flex-col items-center">
       <img src="/about-img.png" alt="" />
     </div>
-    <div  className="max-w-prose  mx-auto tracking-widest space-y-6">
+    <div  className="max-w-prose  mx-auto tracking-wider text-sm space-y-6">
       <p><span className="font-semibold">Ricardo Tadeu</span> é paulista, maquiador e jornalista, com uma carreira de mais de dez anos dedicada à escrita sobre meio ambiente, sustentabilidade,
 política e economia. Sua trajetória também incluiu atuações na
 comunicação corporativa de multinacionais e como RP e assessor de

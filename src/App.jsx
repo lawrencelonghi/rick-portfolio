@@ -7,13 +7,10 @@ import { Work } from './components/sections/Work'
 import { About } from './components/sections/About'
 import { Contact } from './components/sections/Contact'
 
-//lightgallery modal
-import LightGallery from 'lightgallery/react';
-import 'lightgallery/css/lightgallery.css';
-import 'lightgallery/css/lg-zoom.css';
-import 'lightgallery/css/lg-thumbnail.css';
-import lgThumbnail from 'lightgallery/plugins/thumbnail';
-import lgZoom from 'lightgallery/plugins/zoom';
+import ImageGallery from "react-image-gallery";
+// import stylesheet if you're not already using CSS @import
+import "react-image-gallery/styles/css/image-gallery.css";
+
 
 function App() {
 
